@@ -1,3 +1,3 @@
-head -5 $1 | sort > animals_first5.txt
-wc -c animals_first5.txt > $2
-rm animals_first5.txt
+# This script is used to count the number of characters in a file.
+head -5 $1 | sort  | wc -c > $2
+
